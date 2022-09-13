@@ -30,6 +30,11 @@ fieldset:last-of-type{
     border-bottom: none; 
 }
 
+input, textarea, select{
+    width: 100%;
+    margin: 10px 0 0;
+}
+
 label{
     display: block;
     margin: 0.5rem 0;

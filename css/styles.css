@@ -13,6 +13,6 @@ label{
 }
 
 
-textarea{
+textarea::placeholder{
     color: green;
 }

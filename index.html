@@ -12,10 +12,10 @@
 <form action="#">
     <!-- First name, last name, email, password fields -->
     <fieldset>
-        <label>Enter your first name: <input type="text" required/></label>
-        <label>Enter your last name: <input type="text" required/></label>
-        <label>Enter your email: <input type="email" required/></label>
-        <label>Enter your password: <input type="password" pattern="[a-z0-5]{8,}" required/></label>
+        <label>Enter your first name: <input type="text" name="firstName" required/></label>
+        <label>Enter your last name: <input type="text" name="lastName" required/></label>
+        <label>Enter your email: <input type="email" name="email" required/></label>
+        <label>Enter your password: <input type="password" name="password" pattern="[a-z0-5]{8,}" required/></label>
 
     </fieldset>
     <fieldset>
@@ -24,11 +24,11 @@
         <label><input type="checkbox" required/> I accept the <a href="#">terms and conditions</a></label>
     </fieldset>
     <fieldset>
-        <label>Upload a profile picture: <input type="file" /></label>
-        <label>Input your age (years): <input type="number" min="13" max="120"> </label>
+        <label>Upload a profile picture: <input type="file" name="fileUpload" /></label>
+        <label>Input your age (years): <input type="number" name="age" min="13" max="120"> </label>
         <label>
             How did you hear from us?
-            <select>
+            <select name="referrer">
                 <option value="">(select one)</option><!--Value attrib will just be empty-->
                 <option value="1">News</option>
                 <option value="2">Blog</option>

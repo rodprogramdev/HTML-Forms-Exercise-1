@@ -21,7 +21,7 @@
     <fieldset>
         <label><input type="radio" name="account-type" /> Personal account</label>
         <label><input type="radio" name="account-type" /> Business account</label>
-        <label><input type="checkbox" required/> I accept the <a href="#">terms and conditions</a></label>
+        <label><input type="checkbox" name="termsConditions" required/> I accept the <a href="#">terms and conditions</a></label>
     </fieldset>
     <fieldset>
         <label>Upload a profile picture: <input type="file" name="fileUpload" /></label>
@@ -34,12 +34,11 @@
                 <option value="2">Blog</option>
                 <option value="3">Forum</option>
                 <option value="4">Others</option>
-                
             </select>
         </label>
         <label>
-            Provide a bio:
-            <textarea name="" id="" cols="30" rows="3" placeholder="I like coding on a rainy day..."></textarea>
+            Provide a bio: 
+            <textarea name="bio" id="" cols="30" rows="3" placeholder="I like coding on a rainy day..."></textarea>
         </label>
         
         
